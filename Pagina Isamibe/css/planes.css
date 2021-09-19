@@ -1,0 +1,17 @@
+#secplanes {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#plan1 {
+	margin-left: 6%;
+	background-color: red;
+	text-align: center;
+	height: 500px;
+	width: 25%;
+	border-radius: 15px;
+	padding: 5px;
+	position: relative;
+}

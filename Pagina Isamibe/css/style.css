@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+
+body {
+	background-image: url("../Fondo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header {
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #FF7D00;
+
+}
+
+a:hover {
+    color: black;
+}
+
+.contenido {
+  padding-top: 80px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+footer {
+		    color: white;
+		    width: 100%;
+		    max-height: 100%;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    text-align: center;
+		}

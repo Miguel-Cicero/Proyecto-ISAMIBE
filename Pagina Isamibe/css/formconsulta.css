@@ -1,0 +1,62 @@
+#consulta {
+	float: right;
+	position: relative;
+	margin-top: 13%;
+	margin-right: 3%;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 40%;
+	padding: 20px;
+	display: inline-grid;
+}
+
+#tituconsu {
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+label {
+	color: white;
+	font-family: sans-serif;
+	margin-top: 10px;	
+}
+
+.datos {
+	transition: all 0.2s linear;
+    width: 90%;
+    bottom: 100%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+  background-color: #FFFFFF;
+}
+
+.datos:hover {
+    width: 100%;
+    background-color: #FF7D00;
+    text-decoration: none;
+    border: 0px;
+}
+
+.boton2 {
+			background-color: #FF7D00;
+		    border: none;
+		    color: black;
+		    padding: 10px 10px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 15px;
+		    -webkit-transition-duration: 0.4s; /* Safari */
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		    width: 25%;
+		    border-radius: 5px;
+		}
+
+		.boton2:hover {
+			color: black;
+			background-color: #FFC284;
+		}

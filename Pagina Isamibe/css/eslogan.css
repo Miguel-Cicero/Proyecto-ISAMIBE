@@ -1,0 +1,19 @@
+#eslogan {
+	float: left;
+	position: relative;
+	margin-top: 20%;
+	margin-left: 3%;
+	width: 40%;
+	display: inline-flex;
+	font-size: 55px;
+	font-family: sans-serif;
+	color: #FFFFFF;
+}
+
+#lineadeco {
+	background-color: #FF7D00;
+	position: relative;
+	color: #FF7D00;
+	height: 5%;
+	width: auto;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Administrador de tienda</title>
+
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body {
+			background-image: url("banner2.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.padre {
+			margin-top: 10%;
+			width: auto;
+			height: 250px;
+			background-color: rgba(214, 107, 0, 0.5);
+		}
+
+		#titulodatos	{
+			color: white;
+			text-decoration: none;
+			text-align: center;
+			font-size: 40px;
+			font-family: Tw Cen MT;
+			margin-right: 10%;
+			margin-left: 10%;
+		}
+
+		.padre {
+		/*IMPORTANTE*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#usuario {
+			color: white;
+			font-family: Verdana;
+		}
+
+		#constrasenia {
+			color: white;
+			font-family: Verdana;
+		}
+
+		input {
+			width: 90%;
+			font-size: 15px;
+		}
+
+		#botonadmin {
+			background-color: #FFC284; /* Green */
+		    border: none;
+		    color: black;
+		    padding: 16px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    -webkit-transition-duration: 0.4s; /* Safari */
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		}
+
+		#botonadmin:hover {
+			color: black;
+			background-color: #FF972F;
+
+		}
+
+		.txtingreso {
+			outline: none;
+		}
+
+		footer {
+		    color: white;
+		    width: 100%;
+		    max-height: 100%;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+<center>
+	<img src="Logo.png" width="180" height="100">
+
+	
+		<div class="padre">
+			<section id="titulodatos">ADMINISTRADOR <br> DE <br> E-COMMERCE</section>
+			<div class="hijo">
+					<form action="https://www.google.com.ar" method="POST">
+
+						<div id="usuario">USUARIO:</div>
+						<center><input class="txtingreso" type="text" name="txtusuario"></center><br>
+						
+						<div id="constrasenia">CONTRASEÑA:</div>
+						<center><input class="txtingreso" type="password" name="txtcontrasenia" ></center><br>
+						
+						<center><input id="botonadmin" type="submit" value="INGRESAR" name="INGRESAR"></center>
+					</form>
+				</section>
+			 </div>
+		</div>
+	</center>
+
+	<footer>
+		© 2020 ISAMIBE. TODOS LOS DERECHOS RESERVADOS.
+	</footer>
+</body>
+</html>
